@@ -1,1 +1,253 @@
+# Python Lab – Menu-Driven Applications
 
+## Aim - To develop Python applications using **functions, loops, conditional statements, menus, lists, random numbers, input validation, and nested menu-driven programming**.
+
+
+## Programs Included
+
+| No. | Program                              | File Name                       |
+| --- | ------------------------------------ | ------------------------------- |
+| 1   | ATM Simulation                       | `1_atm_simulation.py`           |
+| 2   | Student Grade Calculator             | `2_student_grade_calculator.py` |
+| 3   | Reverse Guessing Game                | `3_reverse_guessing_game.py`    |
+| 4   | Guessing Game with Hints and Scoring | `4_guessing_game_hints.py`      |
+| 5   | Combined Application                 | `5_combined_application.py`     |
+
+---
+
+# 1. ATM Simulation
+
+### Aim
+
+To develop a menu-driven ATM simulation that allows the user to check balance, deposit money, withdraw money, and change the PIN after successful authentication.
+
+### Logic
+
+The program first verifies the user's PIN and displays the ATM menu after successful authentication. The user can perform banking operations repeatedly, while withdrawals are allowed only when sufficient balance is available.
+
+### Sample Input
+
+```text
+Enter ATM PIN: 1234
+Enter your choice: 1
+```
+
+### Sample Output
+
+```text
+PIN verified successfully!
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Change PIN
+5. Exit ATM
+
+Current Balance: ₹5000
+
+
+# 2. Student Grade Calculator
+
+### Aim
+
+To create a menu-driven grade calculator that accepts marks for five subjects, calculates the average, and assigns a grade.
+
+### Logic
+
+The program accepts marks for five subjects and calculates their average. Based on the average, a grade is assigned and the most recently entered student's data is stored for later viewing.
+
+### Sample Input
+
+```text
+Enter your choice: 1
+Enter student name: Shifa
+Enter marks for Subject 1: 85
+Enter marks for Subject 2: 90
+Enter marks for Subject 3: 80
+Enter marks for Subject 4: 88
+Enter marks for Subject 5: 92
+```
+
+### Sample Output
+
+```text
+Student data entered successfully!
+
+Enter your choice: 2
+
+===== LAST ENTERED STUDENT =====
+Name: Shifa
+Marks: [85.0, 90.0, 80.0, 88.0, 92.0]
+Average: 87.0
+Grade: A
+```
+
+---
+
+# 3. Reverse Guessing Game
+
+### Aim
+
+To develop a reverse guessing game where the computer guesses the number secretly selected by the user using a binary-search strategy.
+
+### Logic
+
+The user specifies a range and secretly thinks of a number. The computer guesses the middle value of the current range and reduces the range based on whether the guess is too high or too low.
+
+### Sample Input/Output
+
+```text
+Enter the lower limit: 1
+Enter the upper limit: 100
+
+Computer's guess: 50
+Your response: l
+
+Computer's guess: 75
+Your response: h
+
+Computer's guess: 62
+Your response: l
+
+Computer's guess: 68
+Your response: c
+
+Computer guessed your number in 4 guesses!
+```
+
+---
+
+# 4. Guessing Game with Hints and Scoring
+
+### Aim
+
+To develop a number guessing game that provides hints and maintains a score based on the number of incorrect guesses.
+
+### Logic
+
+The computer generates a random number between 1 and 100 and gives the user a maximum of seven attempts. Each wrong guess gives even/odd and multiple-of-5 hints and deducts 10 points from the score.
+
+### Sample Input/Output
+
+```text
+Attempt 1: Enter your guess: 40
+Too low!
+Hint: The secret number is odd.
+Hint: The secret number is not a multiple of 5.
+Current Score: 90
+
+Attempt 2: Enter your guess: 51
+Congratulations! You guessed the correct number!
+Final Score: 90
+```
+
+---
+
+# 5. Combined Application
+
+### Aim
+
+To combine the ATM, Student Grade Calculator, and Guessing Game into a single menu-driven Python application.
+
+### Logic
+
+The main menu allows the user to select ATM, Grade Calculator, or Guessing Game. Each option starts its own program flow, and after exiting that section, the user is returned to the main menu.
+
+### Sample Input/Output
+
+```text
+================================
+       COMBINED APPLICATION
+================================
+1. ATM
+2. Grade Calculator
+3. Guessing Game
+4. Exit
+
+Enter your choice: 2
+
+===== GRADE CALCULATOR =====
+1. Enter marks for a new student
+2. View grade of last entered student
+3. Exit Grade Calculator
+
+Enter your choice: 3
+Exiting Grade Calculator...
+
+================================
+       COMBINED APPLICATION
+================================
+1. ATM
+2. Grade Calculator
+3. Guessing Game
+4. Exit
+
+Enter your choice: 4
+Thank you for using the application!
+```
+
+---
+
+# Concepts Used
+
+* Variables and data types
+* User input and output
+* `if`, `elif`, and `else`
+* `for` and `while` loops
+* Functions
+* Global variables
+* Lists
+* Menu-driven programming
+* Input validation
+* Random number generation
+* Binary search strategy
+* Arithmetic operators
+* Nested menus
+
+---
+
+# Folder Structure
+
+```text
+Python_Lab/
+│
+├── 1_atm_simulation.py
+├── 2_student_grade_calculator.py
+├── 3_reverse_guessing_game.py
+├── 4_guessing_game_hints.py
+├── 5_combined_application.py
+└── README.md
+```
+
+---
+
+# How to Run
+
+Open the terminal in the project folder and run any program using:
+
+```bash
+python 1_atm_simulation.py
+```
+
+```bash
+python 2_student_grade_calculator.py
+```
+
+```bash
+python 3_reverse_guessing_game.py
+```
+
+```bash
+python 4_guessing_game_hints.py
+```
+
+```bash
+python 5_combined_application.py
+```
+
+---
+
+# Conclusion
+
+These programs demonstrate how Python concepts such as **functions, loops, conditions, lists, random numbers, input validation, and menu-driven programming** can be combined to create interactive console applications.
