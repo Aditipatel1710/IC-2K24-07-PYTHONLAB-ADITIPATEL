@@ -1,1 +1,169 @@
+1. Variable and Identifier Practice
+Aim: To declare variables of different data types, take values from the user, and display each variable along with its data type.
 
+Logic:
+1.Take the user's name as input.
+2.Take age as an integer using int().
+3.Take height as a decimal value using float().
+4.Take student status as True or False.
+5.Use type() to display the data type of each variable.
+Sample Input
+Enter your name: Aditi
+Enter your age: 20
+Enter your height: 5.5
+Are you a student? (True/False): True
+Sample Output
+--- Details ---
+Name: Aditi Type: <class 'str'>
+Age: 20 Type: <class 'int'>
+Height: 5.5 Type: <class 'float'>
+Student: True Type: <class 'bool'>
+
+2. Greeting Program
+Aim: To take the user's name, age, and city as input and display them in a single sentence using an f-string.
+Logic:
+1.Take the user's name.
+2.Take the user's age.
+3.Take the user's city.
+4.Combine all three values using an f-string.
+5.Display the greeting sentence.
+Sample Input
+Enter your name: Aditi
+Enter your age: 20
+Enter your city: Indore
+Sample Output
+My name is Aditi, I am 20 years old, and I live in Indore.
+
+3. Arithmetic Operations
+Aim: To perform basic arithmetic operations on two numbers entered by the user.
+Logic
+1.Take two numbers as input.
+2.Calculate their:
+Sum
+Difference
+Product
+Quotient
+Remainder
+3.Display each result with a suitable label.
+4.Check that the second number is not zero before performing division.
+Sample Input
+Enter the first number: 20
+Enter the second number: 6
+Sample Output
+Sum: 26.0
+Difference: 14.0
+Product: 120.0
+Quotient: 3.3333333333333335
+Remainder: 2.0
+
+4. Celsius to Fahrenheit
+Aim: To convert a temperature given in Celsius into Fahrenheit.
+Logic:
+1.Take the temperature in Celsius from the user.
+2.Convert the input into a floating-point number using float().
+3.Apply the formula:
+F = (C × 9/5) + 32
+4.Display the Fahrenheit temperature.
+Sample Input
+Enter temperature in Celsius: 25
+Sample Output
+Temperature in Fahrenheit: 77.0
+
+5. String Manipulation
+Aim:To perform different string operations and methods on a full name entered by the user.
+
+Logic:
+1.Take the user's full name as input.
+2.Convert the name to uppercase using .upper().
+3.Convert the name to lowercase using .lower().
+4.Reverse the name using slicing [::-1].
+5.Find the length using len().
+6.emove unnecessary spaces using .strip().
+7.String Methods/Operations Used
+upper()
+lower()
+strip()
+len()
+String slicing
+Sample Input
+Enter your full name: Aditi Patel
+Sample Output
+Uppercase: ADITI PATEL
+Lowercase: aditi patel
+Reversed: letaP itidA
+Length: 10
+Without extra spaces: AditiPatel  
+
+6. Escape Sequence Practice
+Aim-To understand and use escape sequences such as \n and \t to display information in a properly formatted manner.
+
+Logic:
+1.Take the names and prices of three items from the user.
+2.Use \n to create new lines.
+3.Use \t to create tab spaces between the item and price.
+4.Display the items in the form of a receipt.
+5.Calculate and display the total price.
+6.Escape Sequences Used
+7.Escape Sequence	Purpose
+\n	Moves the output to a new line
+\t	Adds a tab space
+Sample Input
+Enter first item: Pen
+Enter price of first item: 20
+Enter second item: Notebook
+Enter price of second item: 50
+Enter third item: Pencil
+Enter price of third item: 10
+Sample Output
+----- RECEIPT -----
+Item            Price
+-------------------------
+Pen             ₹20.0
+Notebook        ₹50.0
+Pencil          ₹10.0
+-------------------------
+Total           ₹80.0
+7. Menu-Driven Calculator
+Aim -To create a menu-driven calculator that performs different arithmetic operations and continues running until the user chooses to exit.
+
+Operations
+Addition
+Subtraction
+Multiplication
+Division
+Exit
+Logic
+Display the calculator menu.
+Ask the user to select an operation.
+If the user selects an arithmetic operation, take two numbers.
+Perform the selected operation.
+Display the result.
+Use a while loop to keep displaying the menu.
+Use break when the user selects the Exit option.
+Check for division by zero before performing division.
+Display an error message for an invalid choice.
+Sample Input
+===== CALCULATOR =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+Enter your choice: 1
+Enter first number: 20
+Enter second number: 10
+Sample Output
+Result: 30.0
+
+The menu appears again:
+
+===== CALCULATOR =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+Enter your choice: 5
+Calculator closed. Thank you!
