@@ -1,1 +1,44 @@
+1. Hollow Diamond Pattern
 
+Aim:
+To write a Python program to print a hollow diamond star pattern. The program takes an odd number as input and prints stars only on the boundary.
+
+Logic:
+Calculate the middle using n // 2. Use loops to print spaces and boundary stars for the upper and lower parts of the diamond.
+
+Sample Input:
+
+Enter odd n: 5
+
+Sample Output:
+
+  *
+ * *
+*   *
+ * *
+  *
+
+⸻
+
+2. Butterfly Pattern
+
+Aim:
+To write a Python program to print a butterfly star pattern. The program takes n as input and creates the pattern using stars and spaces.
+
+Logic:
+Use one loop to increase the number of stars and another loop to decrease them. Print spaces between the left and right groups of stars.
+
+Sample Input:
+
+Enter n: 4
+
+Sample Output:
+
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
