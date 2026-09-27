@@ -39,6 +39,64 @@ Sample Output:
 ***  ***
 ********
 ********
-***  ***
-**    **
-*      *
+
+
+## 3. 3×3 Matrix Operations
+
+**Aim:**
+To input a 3×3 matrix and perform basic operations such as finding the sum, diagonal sum, largest and smallest elements, and transpose.
+
+**Logic:**
+The program stores the 3×3 matrix using a nested list and uses nested loops to access its elements. It then performs different operations such as calculating sums, finding the largest/smallest element, and interchanging rows and columns to obtain the transpose.
+
+**Sample Input:**
+
+```text
+Enter row 1: 1 2 3
+Enter row 2: 4 5 6
+Enter row 3: 7 8 9
+```
+
+**Sample Output:**
+
+```text
+1. Matrix in row-column form:
+1 2 3
+4 5 6
+7 8 9
+
+2. Sum of all elements: 45
+
+3. Sum of main diagonal: 15
+
+4. Largest element: 9
+Smallest element: 1
+
+5. Transpose of matrix:
+1 4 7
+2 5 8
+3 6 9
+```
+
+---
+
+## 4. Right-Angled Star Pattern
+
+**Aim:**
+To print a right-angled triangle pattern of stars based on the number of rows entered by the user.
+
+**Logic:**
+The outer loop controls the number of rows, while the inner loop prints stars according to the current row number. After printing each row, `print()` moves the cursor to the next line.
+
+**Sample Input:**
+
+```text
+Enter n: 5
+```
+
+**Sample Output:**
+
+```text
+*
+*
+***
