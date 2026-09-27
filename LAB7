@@ -1,0 +1,129 @@
+Snippet 1
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+Justify: The loop visits each element of the array once, while only a few variables are used.
+
+Snippet 2
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+Justify: Two nested loops compare every possible pair of elements in the array.
+
+Snippet 3
+
+Time Complexity: O(log n)
+Space Complexity: O(log n)
+Justify: Each recursive call divides the number by 10, resulting in logarithmic calls and recursion-stack space.
+
+Snippet 4
+
+Time Complexity: O(n²)
+Space Complexity: O(n²)
+Justify: Two nested loops generate n² pairs, and all pairs are stored in the result list.
+
+Snippet 5
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+Justify: Binary search reduces the search range by half in every iteration and uses only a constant amount of extra space.
+
+Snippet 6
+
+Time Complexity: O(n³)
+Space Complexity: O(n²)
+Justify: Three nested loops perform n³ operations, while the result matrix requires n² space.
+
+Snippet 7
+
+Time Complexity: O(mn)
+Space Complexity: O(k)
+Justify: Every element of the m × n matrix is checked once, and only the k non-zero elements are stored.
+
+Snippet 8
+
+Time Complexity: O(n²)
+Justify: The first loop takes O(n), but the two nested loops take O(n²), which dominates the total complexity.
+
+Snippet 9
+
+Time Complexity: O(n)
+Justify: Each array element is compared with only 10 values; since 10 is constant, the complexity is O(n).
+
+Snippet 10
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+Justify: Every element is copied into a new list, requiring n operations and n additional spaces.
+
+Snippet 11
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+Justify: The array is reversed by swapping elements approximately n/2 times without creating another array.
+
+Snippet 12
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+Justify: The function makes one recursive call for each value until reaching 1, creating n recursive calls and stack frames.
+
+Snippet 13
+
+Time Complexity: O(2ⁿ)
+Space Complexity: O(n)
+Justify: Each call creates two recursive calls, resulting in exponential time, while the maximum recursion depth is n.
+
+Snippet 14
+
+Time Complexity: O(n) average
+Space Complexity: O(n)
+Justify: The array is traversed once and set operations take O(1) average time, while the set can store up to n elements.
+
+Snippet 15
+
+Time Complexity: O(n × 2ⁿ)
+Space Complexity: O(n)
+Justify: There are 2ⁿ possible subsets, and each subset requires checking n elements.
+
+Snippet 16
+
+Time Complexity: O(m + n)
+Space Complexity: O(m + n)
+Justify: Each element from both sorted arrays is processed once and stored in the result list.
+
+Snippet 17
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+Justify: The string is traversed to create its reverse, and slicing creates a new string requiring O(n) space.
+
+Snippet 18
+
+Time Complexity: O(mn)
+Space Complexity: O(mn)
+Justify: Every element of the m × n matrix is visited once and copied into the flattened list.
+
+Snippet 19
+
+Time Complexity: O(exp)
+Space Complexity: O(exp)
+Justify: The exponent decreases by 1 in every recursive call, resulting in exp calls and exp recursion-stack space.
+
+Snippet 20
+
+Time Complexity: O(log exp)
+Space Complexity: O(log exp)
+Justify: The exponent is divided by 2 in every recursive call, resulting in logarithmic time and recursion depth.
+
+Snippet 21
+
+Time Complexity: O(a × b)
+Space Complexity: O(1)
+Justify: In the worst case, every element of array a is compared with every element of array b, with no extra data structure.
+
+Snippet 22
+
+Time Complexity: O(n) average
+Space Complexity: O(n)
+Justify: The array is traversed once, and dictionary operations take O(1) average time while the dictionary can store up to n distinct values.
