@@ -1,1 +1,249 @@
+# 1. Armstrong Number
 
+### Aim
+
+To check whether a given number is an Armstrong number and display all Armstrong numbers within a user-defined range.
+
+### Logic
+
+The program counts the digits of the number and adds each digit raised to that power. If the sum equals the original number, it is an Armstrong number. The same function is used to find Armstrong numbers in a range.
+
+### Sample Input
+
+```text
+Enter a number: 153
+Enter starting number: 100
+Enter ending number: 500
+```
+
+### Sample Output
+
+```text
+153 is an Armstrong number.
+Armstrong numbers: [153, 370]
+```
+
+---
+
+# 2. Prime Number
+
+### Aim
+
+To check whether a number is prime and display all prime numbers up to a user-defined limit.
+
+### Logic
+
+A number is prime if it is greater than 1 and has no divisors other than 1 and itself. The program checks possible divisors and uses the same function to generate primes up to the given limit.
+
+### Sample Input
+
+```text
+Enter a number: 17
+Enter the limit: 20
+```
+
+### Sample Output
+
+```text
+17 is a prime number.
+Prime numbers: [2, 3, 5, 7, 11, 13, 17, 19]
+```
+
+---
+
+# 3. Perfect Number
+
+### Aim
+
+To check whether a number is a perfect number and display all perfect numbers up to a given limit.
+
+### Logic
+
+The program finds all proper divisors of the number and calculates their sum. If the sum is equal to the original number, it is a perfect number.
+
+### Sample Input
+
+```text
+Enter a positive number: 28
+Enter the limit: 100
+```
+
+### Sample Output
+
+```text
+28 is a perfect number.
+Perfect numbers: [6, 28]
+```
+
+---
+
+# 4. Palindrome
+
+### Aim
+
+To check whether a number and a string are palindromes.
+
+### Logic
+
+For a number, the reverse is constructed using arithmetic operations such as `%` and `//`, without converting it to a string. For a string, the text is reversed using slicing and compared with the original.
+
+### Sample Input
+
+```text
+Enter a number: 121
+Enter a string: madam
+```
+
+### Sample Output
+
+```text
+121 is a palindrome.
+The string is a palindrome.
+```
+
+---
+
+# 5. Fibonacci Series
+
+### Aim
+
+To generate the first `n` terms of the Fibonacci series using both iteration and recursion, and compare the recursive function calls.
+
+### Logic
+
+The loop version repeatedly updates two variables to generate the next Fibonacci term. The recursive version calls itself for the previous two terms and a counter is used to track the total number of recursive calls.
+
+### Sample Input
+
+```text
+Enter the number of terms: 10
+```
+
+### Sample Output
+
+```text
+Fibonacci using loop:
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+Fibonacci using recursion:
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+Number of recursive function calls: 177
+```
+
+---
+
+# 6. Pattern Printing
+
+### Aim
+
+To print a right-angled star triangle, a number pattern, and a centered pyramid using nested loops.
+
+### Logic
+
+The outer loop controls the number of rows while the inner loops control the elements printed in each row. Spaces are printed before the stars to center the pyramid.
+
+### Sample Input
+
+```text
+Enter the number of rows: 5
+```
+
+### Sample Output
+
+```text
+Right-Angled Triangle
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Number Pattern
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Centered Pyramid
+
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+```
+
+---
+
+# 7. Menu-Driven Application
+
+### Aim
+
+To combine the major programs into a single menu-driven application that repeatedly accepts user choices until the user exits.
+
+### Logic
+
+The program displays a menu and calls the appropriate function based on the user's choice. A `while` loop keeps the menu running, while invalid choices are handled without terminating the program.
+
+### Sample Input
+
+```text
+Enter your choice: 1
+Enter a number: 153
+Enter range start: 100
+Enter range end: 500
+```
+
+### Sample Output
+
+```text
+It is an Armstrong number.
+Armstrong numbers: [153, 370]
+
+========== MENU ==========
+1. Armstrong Number
+2. Prime Number
+3. Perfect Number
+4. Palindrome
+5. Fibonacci Series
+6. Pattern Printing
+7. Exit
+```
+
+---
+
+# 8. Number Guessing Game
+
+### Aim
+
+To create a number guessing game where the user tries to guess a randomly generated number within a fixed number of attempts.
+
+### Logic
+
+The program generates a random number between 1 and 100 using `random.randint()`. After each guess, it tells the user whether the guess is too high or too low and allows a maximum of 7 attempts.
+
+### Sample Input
+
+```text
+Attempt 1 of 7
+Enter your guess (1-100): 50
+
+Attempt 2 of 7
+Enter your guess (1-100): 75
+
+Attempt 3 of 7
+Enter your guess (1-100): 63
+```
+
+### Sample Output
+
+```text
+Too low!
+Too high!
+Correct!
+You guessed the number in 3 attempt(s).
+```
