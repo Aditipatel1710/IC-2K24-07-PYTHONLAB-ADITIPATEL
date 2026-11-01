@@ -1,1 +1,76 @@
 
+ Objectives
+
+- Understand Python dictionaries and nested dictionaries.
+- Perform CRUD operations (Create, Read, Update, Delete).
+- Use dictionary methods such as `get()`, `items()`, `values()`, and `setdefault()`.
+- Implement dictionary and list comprehensions.
+- Perform sorting, grouping, counting, and aggregation.
+- Develop menu-driven applications using Python.
+
+ Programs Included
+
+ 1. Student Database
+
+Concepts - Nested Dictionaries, Dictionary Comprehension, Aggregation.
+
+Features:
+- Add, update, delete, and search student records.
+- Store student names and subject-wise marks.
+- Calculate average marks of every student.
+- Find the topper and highest scorer in each subject.
+- Identify students scoring below 40.
+- Group students according to grades (A, B, C, D, F).
+
+ 2. Employee Database
+
+Concepts- Dictionary Grouping, Aggregation, Sorting, Comprehension.
+
+Features:
+- Add, update, delete, and search employees.
+- Calculate department-wise payroll and headcount.
+- Find the highest-paid employee in each department.
+- Sort employees according to salary.
+- Calculate a 10% salary raise using dictionary comprehension.
+- Find the department with the highest average salary.
+
+ 3. Library Record System
+
+Concepts- Nested Dictionaries, Lists, Data Inversion.
+
+Features:
+- Add books and manage available copies.
+- Issue and return books.
+- Maintain member-wise issued book records.
+- Apply book availability and borrowing-limit rules.
+- Search books by ISBN.
+- Generate reports for authors, unavailable books, and members holding multiple books.
+
+4. Word Frequency Counter
+
+Concepts- String Manipulation, Dictionary as Counter, Sorting.
+
+Features:
+- Accept a paragraph from the user.
+- Convert text into lowercase and remove punctuation manually.
+- Count word frequency using `get()`.
+- Display the top N most frequent words.
+- Find words appearing exactly once.
+- Invert the frequency dictionary.
+- Group words according to their length.
+- Search for a particular word.
+
+5. Phone Directory
+
+Concepts- Nested Dictionaries, List Values, Reverse Lookup.
+
+Features:
+- Add and delete contacts.
+- Store multiple phone numbers for a contact.
+- Update email and city information.
+- Validate phone numbers (exactly 10 digits).
+- Search contacts using partial names.
+- Perform reverse lookup using phone numbers.
+- Group contacts according to city.
+- Display contacts having multiple numbers.
+
